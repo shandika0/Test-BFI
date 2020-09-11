@@ -13,14 +13,6 @@ import java.net.URLConnection;
 import java.util.*;
 
 public class TestF  {
-	
-	public static void main(String[] args)throws Exception{
-		TestF();
-		
-	}
-	  public static void TestF() throws Exception{
-        System.out.println(solF("pulxu pqnjzng"));
-    }
 
     public static List<String> solF(String input) throws Exception {
         String url = "https://raw.githubusercontent.com/lutangar/cities.json/master/cities.json";

@@ -4,17 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class TestD {
-	public static void main(String[] args) {
-		Test();
-
-	}
-	public static void Test() {
-		System.out.println(solD(new Integer[] { 3, 2, -5, 0 }));
-		System.out.println(solD(new Integer[] { 10, -1, -2, -3 }));
-		System.out.println(solD(new Integer[] { 100, 200, 300, -100, -200, -3, -1, -2, -4, 1000, -5 }));
-		System.out.println(solD(new Integer[] { 0, 2, 4, -1, -3, -4 }));
-		System.out.println(solD(new Integer[] { 3, 2, -5, -1, -2, 0 }));
-	}
 
 	public static int solD(Integer[] a) {
 		ArrayList<Integer> NegNumb = new ArrayList<Integer>();

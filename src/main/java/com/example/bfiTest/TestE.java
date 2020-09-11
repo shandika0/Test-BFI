@@ -2,20 +2,6 @@ package com.example.bfiTest;
 
 public class TestE {
 
-	public static void main(String[] args) {
-		Test();
-	}
-
-	public static void Test() {
-		System.out.println(solE("Tony Stark"));
-		System.out.println(solE("Peter Parker"));
-		System.out.println(solE("Bumblebee"));
-		System.out.println(solE("El Taurino"));
-		System.out.println(solE("John Doe"));
-		System.out.println(solE("Crazy Rich Asian"));
-		System.out.println(solE("Stephen Strange"));
-		System.out.println(solE("A Kid With Supernatural Abilities"));
-	}
 
 	public static String solE(String original) {
 		String word[] = original.split(" ");
